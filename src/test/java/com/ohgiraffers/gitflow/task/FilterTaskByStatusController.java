@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/task")
 public class FilterTaskByStatusController {
 
-    @GetMapping("mark-task")
-    public String markTask() {
+    @GetMapping("filter-task-by-status")
+    public String f() {
         return "할일 완료 처리하는 기능 개발 초기화";
     }
 }
