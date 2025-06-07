@@ -9,6 +9,6 @@ public class DeleteTaskConroller {
 
     @GetMapping("delete-task")
     public String deleteTask(){
-        return "할일 완료처리하는 기능 개발 완료";
+        return "할일 완료처리하는 기능 개발 수정";
     }
 }
