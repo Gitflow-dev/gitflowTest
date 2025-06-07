@@ -5,6 +5,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class AddTaskController {
    public void addTaskDone(){
-       System.out.println("add task done");
+       System.out.println("add task done2");
    }
 }
