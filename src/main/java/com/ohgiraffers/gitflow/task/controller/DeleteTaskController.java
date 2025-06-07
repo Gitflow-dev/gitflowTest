@@ -9,7 +9,7 @@ public class DeleteTaskController {
 
     @GetMapping("delete-task")
     public String deleteTask(){
-        System.out.println("delete task modify");
+        System.out.println("delete task modify2");
         return "할일 완료처리하는 기능 개발 완료 (check)";
     }
 }
