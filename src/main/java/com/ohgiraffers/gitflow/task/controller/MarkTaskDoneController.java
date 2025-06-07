@@ -10,7 +10,7 @@ public class MarkTaskDoneController {
 
     @GetMapping("mark-task")
     public String markTask() {
-        return "할일 완료처리하는 기능 개발 진행중";
+        return "할일 완료처리하는 기능 개발 완료";
     }
 
 }
