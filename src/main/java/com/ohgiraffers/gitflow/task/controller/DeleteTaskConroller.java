@@ -9,7 +9,7 @@ public class DeleteTaskConroller {
 
     @GetMapping("delete-task")
     public String deleteTask(){
-        System.out.println("delete task modify1");
-        return "할일 완료처리하는 기능 개발 완료 (check)";
+        System.out.println("hello world, delete task modify1");
+        return "할일 완료처리하는 기능 개발 완료 (check2";
     }
 }

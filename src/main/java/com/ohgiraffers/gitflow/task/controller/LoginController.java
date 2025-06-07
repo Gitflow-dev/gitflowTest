@@ -10,6 +10,6 @@ public class LoginController {
 
     @GetMapping("/login")
     public String login() {
-        return "로그인 기능";
+        return "로그인 기능1";
     }
 }
