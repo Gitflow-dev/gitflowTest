@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/task")
-public class DeleteTaskConroller {
+public class DeleteTaskController {
 
     @GetMapping("delete-task")
     public String deleteTask(){
